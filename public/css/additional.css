@@ -17,7 +17,8 @@ section>footer>p{
 }
 
 .row.row-eq-height > .col-md-2{
-	height:150px;
+	height:179px;
+  text-align: center;
 }
 
 section>footer{
@@ -26,6 +27,20 @@ section>footer{
 
 .btn-top{
 	border-radius: 0px;
+  background: #FFFBFB;
+  border: 1px solid;
+  border-color: rgb(160, 164, 165);
+}
+
+.atyle{
+  color: #575760;
+}
+
+.atyle.active{
+  border: 1px solid;
+  color: rgb(250, 146, 0);
+  border-color: rgb(160, 164, 165);
+  background-color: rgb(254, 254, 254);
 }
 
 /*.navbar-brand
@@ -58,13 +73,13 @@ ul>li>a{
 @media (max-width: 768px) { 
   	.col-xs-12{background-color:blue;}
 	.row.row-eq-height > .col-md-2{
-		height:150px;
+		height:179px;
 	}
 }
 /*screen-sm*/
 @media (min-width: 768px) and (max-width: 992px) { 
 	.row.col-condensed [class*="col-md"]{
-	  max-height:150px;
+	  max-height:179px;
 	  overflow:hidden;
 	}
 
@@ -73,14 +88,14 @@ ul>li>a{
 /*screen-md*/
 @media (min-width: 992px) and (max-width: 1200px) { 
 	.row.col-condensed [class*="col-md"]{
-	  max-height:150px;
+	  max-height:179px;
 	  overflow:hidden;
 	}
 }
 /*screen-lg corresponds with col-lg*/
 @media (min-width: 1200px) {  
 	.row.col-condensed [class*="col-md"]{
-	  max-height:150px;
+	  max-height:179px;
 	  overflow:hidden;
 	}
 }
@@ -115,7 +130,7 @@ ul>li>a{
   .col-xs-9,
   .col-xs-10,
   .col-xs-11,
-  .col-xs-12{background-color:blue;}
+  .col-xs-12{background-color:blue;text-align: center;}
 }
 /*screen-sm*/
 @media (min-width: 768px) and (max-width: 992px) { 
@@ -130,7 +145,7 @@ ul>li>a{
   .col-sm-9,
   .col-sm-10,
   .col-sm-11,
-  .col-sm-12{background-color:green;}
+  .col-sm-12{background-color:green;text-align: center;}
 }
 /*screen-md*/
 @media (min-width: 992px) and (max-width: 1200px) { 
@@ -145,7 +160,7 @@ ul>li>a{
   .col-md-9,
   .col-md-10,
   .col-md-11,
-  .col-md-12{background-color:yellow;}
+  .col-md-12{background-color:yellow;text-align: center;}
 }
 /*screen-lg corresponds with col-lg*/
 @media (min-width: 1200px) {  
@@ -160,5 +175,5 @@ ul>li>a{
   .col-lg-9,
   .col-lg-10,
   .col-lg-11,
-  .col-lg-12{background-color:red;}
+  .col-lg-12{background-color:red;text-align: center;}
 }

@@ -34,29 +34,34 @@
                     <ul class="nav navbar-nav navbar-nav-center">
                         <li>
                             <p class="navbar-btn">
-                                <a href="#" class="btn btn-default btn-top">Terpopuler</a>
+                                <a href="#" class="atyle btn btn-default btn-top active">Terpopuler</a>
                             </p>
                         </li>
                         <li>
                             <!-- <a href="/help" title="Help with Start Bootstrap Templates &amp; Themes">Naik Daun</a> -->
                             <p class="navbar-btn">
-                                <a href="#" class="btn btn-default btn-top">Naik Daun</a>
+                                <a href="#" class="atyle btn btn-default btn-top">Naik Daun</a>
                             </p>
                         </li>
                         <li>
                             <p class="navbar-btn">
-                                <a href="#" class="btn btn-default btn-top">Terbaru</a>
+                                <a href="#" class="atyle btn btn-default btn-top">Terbaru</a>
                             </p>
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Cari Hastag">
+                            </div>
+                        </form>
+                        <!-- <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Premium Bootstrap Themes &amp; Templates"><i class="fa fa-star text-yellow"></i> Cari Hastag <b class="caret"></b></a>
-                        </li>
+                        </li> -->
                         <li>
                             <!-- <a href="/contact" class="" title="Contact the Start Bootstrap Team">Ayo Ungkapkan</a> -->
                             <p class="navbar-btn">
-                                <a href="#" class="btn btn-default">Ayo Ungkapin</a>
+                                <a href="#" class="btn btn-warning">Ayo Ungkapin</a>
                             </p>
                         </li>
                     </ul>
@@ -72,6 +77,7 @@
                     ASSASAMengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
+
                 </div>
                 <div class="col-md-2 border">
                     Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
