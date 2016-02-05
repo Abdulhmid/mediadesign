@@ -4,6 +4,8 @@
         <title>Laravel</title>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
         <!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
@@ -11,7 +13,10 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="{!! url('css/additional.css') !!}">
 
+        <!-- Image Hover -->
+
         <style>
+
 
         </style>
     </head>
@@ -72,125 +77,360 @@
         </nav>
         <div class="clearfix"></div>
         <section>
+
             <div class="row col-condensed row-eq-height">
                 <div class="col-md-2 border">
                     ASSASAMengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
 
                 </div>
                 <div class="col-md-2 border">
-                    Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation 
+                    <div class="pdf-thumb-box"> 
+                        <a href="#2013-Katalog">
+                            <div class="pdf-thumb-box-overlay  ">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-square-o fa-stack-2x pdf-thumb-square"></i>
+                                    <i class="fa fa-eye fa-stack-1x pdf-thumb-eye"></i>
+                                </span>
+                            </div>
+                            <div class="img-responsive-parent">
+                                <img class="img-responsive center-block img-size-default" src="http://i.imgur.com/GFZbJZr.jpg" alt="2013 Genel Katalog">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
                 </div>
                 <div class="col-md-2 border">
                     Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
                 </div>
                 <div class="col-md-2 border">
                     Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
                 </div>
                 <div class="col-md-2 border">
                     Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
+                </div>
+                <div class="col-md-2 border">
+                    <div class="pdf-thumb-box"> 
+                        <a href="#2013-Katalog">
+                            <div class="pdf-thumb-box-overlay  ">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-square-o fa-stack-2x pdf-thumb-square"></i>
+                                    <i class="fa fa-eye fa-stack-1x pdf-thumb-eye"></i>
+                                </span>
+                            </div>
+                            <div class="img-responsive-parent">
+                                <img class="img-responsive center-block img-size-default" src="http://i.imgur.com/Cn1ev16.jpg" alt="2013 Genel Katalog">
+                            </div>
+                        </a>
+                    </div> 
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
+                </div>
+                <div class="col-md-2 border">
+
+                    Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation 
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
+                </div>
+                <div class="col-md-2 border">
+                    <div class="pdf-thumb-box"> 
+                        <a href="#2013-Katalog">
+                            <div class="pdf-thumb-box-overlay  ">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-square-o fa-stack-2x pdf-thumb-square"></i>
+                                    <i class="fa fa-eye fa-stack-1x pdf-thumb-eye"></i>
+                                </span>
+                            </div>
+                            <div class="img-responsive-parent">
+                                <img class="img-responsive center-block img-size-default" src="http://i.imgur.com/Cn1ev16.jpg" alt="2013 Genel Katalog">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
+                </div>
+                <div class="col-md-2 border">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,   
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
+                </div>
+                <div class="col-md-2 border">
+                    <div class="pdf-thumb-box"> 
+                        <a href="#2013-Katalog">
+                            <div class="pdf-thumb-box-overlay  ">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-square-o fa-stack-2x pdf-thumb-square"></i>
+                                    <i class="fa fa-eye fa-stack-1x pdf-thumb-eye"></i>
+                                </span>
+                            </div>
+                            <div class="img-responsive-parent">
+                                <img class="img-responsive center-block img-size-default" src="http://i.imgur.com/Cn1ev16.jpg" alt="2013 Genel Katalog">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
                 </div>
                 <div class="col-md-2 border">
                     Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
-                </div>
-                <div class="col-md-2 border">
-                    Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation 
-                </div>
-                <div class="col-md-2 border">
-                    Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation 
-                </div>
-                <div class="col-md-2 border">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,    
-                </div>
-                <div class="col-md-2 border">
-                    Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation 
-                </div>
-                <div class="col-md-2 border">
-                    Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation 
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
                 </div>
                 <div class="col-md-2 border">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
                 </div>
                 <div class="col-md-2 border">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitatio
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
                 </div>
                 <div class="col-md-2 border">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
                 </div>
                 <div class="col-md-2 border">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitatio
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
                 </div>
                 <div class="col-md-2 border">
                     Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
                 </div>
                 <div class="col-md-2 border">
                     Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
                 </div>
                 <div class="col-md-2 border">
                     Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
                 </div>
                 <div class="col-md-2 border">
                     Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
                 </div>
                 <div class="col-md-2 border">
                     Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
                 </div>
                 <div class="col-md-2 border">
                     Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
                 </div>
                 <div class="col-md-2 border">
                     Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
                 </div>
                 <div class="col-md-2 border">
                     Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
                 </div>
                 <div class="col-md-2 border">
                     Mengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
                 </div>
             </div>            
         </section>
