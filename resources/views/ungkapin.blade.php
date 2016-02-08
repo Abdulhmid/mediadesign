@@ -36,7 +36,7 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-nav-center">
+                    <ul class="nav navbar-nav navbar-nav-center center-ul">
                         <li>
                             <p class="navbar-btn">
                                 <a href="#" class="atyle btn btn-default btn-top active">Terpopuler</a>
