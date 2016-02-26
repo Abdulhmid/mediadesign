@@ -79,6 +79,37 @@
         <section>
 
             <div class="row col-condensed row-eq-height">
+
+                <!-- Testing -->
+
+                <div class="col-md-2 border">
+                    <div class="pdf-thumb-box" style="background: none;"> 
+                        <a href="#2013-Katalog" style="color: rgba(0, 0, 0, 0.91);text-decoration:none;background: none;">
+                            <div class="pdf-thumb-box-overlay" style="left: -16px;">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-square-o fa-stack-2x pdf-thumb-square"></i>
+                                    <i class="fa fa-eye fa-stack-1x pdf-thumb-eye"></i>
+                                </span>
+                            </div>
+                            ASSASAMengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation 
+
+                        </a>
+                    </div>
+                    <div class="vertical-social-box"></div>
+                    <div class="clearfix"></div>
+                    <div class="row" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
+                </div>
+
+                <!-- Testing -->
+
                 <div class="col-md-2 border">
                     ASSASAMengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -91,8 +122,8 @@
                             <i class="icon-camera-retro"></i> 
                         </span> 
                     </div>
-
                 </div>
+
                 <div class="col-md-2 border">
                     <div class="pdf-thumb-box"> 
                         <a href="#2013-Katalog">
