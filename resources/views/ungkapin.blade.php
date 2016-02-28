@@ -3,13 +3,13 @@
     <head>
         <title>Laravel</title>
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="{!! url('css/bootstrap.min.css') !!}">
+        <link rel="stylesheet" type="text/css" href="{!! url('css/font-awesome.css') !!}">
+        <link rel="stylesheet" type="text/css" href="{!! url('css/font-awesome.min.css') !!}">
+        <link rel="stylesheet" type="text/css" href="{!! url('css/bootstrap-theme.min.css') !!}">
+        <link rel="stylesheet" type="text/css" href="{!! url('css/startbootstrap.css') !!}">
 
         <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="http://startbootstrap.com/assets/css/startbootstrap.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="{!! url('css/additional.css') !!}">
 
@@ -31,7 +31,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/">ungkap.in</a>
+                    <a class="navbar-brand" href="{!! url('/') !!}">ungkap.in</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -66,7 +66,7 @@
                         <li>
                             <!-- <a href="/contact" class="" title="Contact the Start Bootstrap Team">Ayo Ungkapkan</a> -->
                             <p class="navbar-btn">
-                                <a href="#" class="btn btn-warning">Ayo Ungkapin</a>
+                                <a data-toggle="modal" data-target="#modal-ungkapin" class="btn btn-warning">Ayo Ungkapin</a>
                             </p>
                         </li>
                     </ul>
@@ -78,7 +78,7 @@
         <div class="clearfix"></div>
         <section>
 
-            <div class="row col-condensed row-eq-height">
+            <div class="row color col-condensed row-eq-height">
 
                 <!-- Testing -->
 
@@ -99,7 +99,7 @@
                     </div>
                     <div class="vertical-social-box"></div>
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -115,7 +115,7 @@
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -140,7 +140,7 @@
                     </div>
 
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -153,7 +153,7 @@
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -166,7 +166,7 @@
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -179,7 +179,7 @@
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -202,7 +202,7 @@
                         </a>
                     </div> 
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -216,7 +216,7 @@
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -239,7 +239,7 @@
                         </a>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -250,7 +250,7 @@
                 <div class="col-md-2 border">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,   
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -273,7 +273,7 @@
                         </a>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -286,7 +286,7 @@
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -299,33 +299,7 @@
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
-                        <span class="btn-bottom-content"> 
-                            <i class="fa fa-comment"></i> 899
-                            <i class="icon-eye-open"></i> 899 
-                            <i class="icon-camera-retro"></i> 
-                        </span> 
-                    </div>
-                </div>
-                <div class="col-md-2 border">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitatio
-                    <div class="clearfix"></div>
-                    <div class="row" style="display:block">
-                        <span class="btn-bottom-content"> 
-                            <i class="fa fa-comment"></i> 899
-                            <i class="icon-eye-open"></i> 899 
-                            <i class="icon-camera-retro"></i> 
-                        </span> 
-                    </div>
-                </div>
-                <div class="col-md-2 border">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation 
-                    <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -338,7 +312,33 @@
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitatio
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
+                </div>
+                <div class="col-md-2 border">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation 
+                    <div class="clearfix"></div>
+                    <div class="row span" style="display:block">
+                        <span class="btn-bottom-content"> 
+                            <i class="fa fa-comment"></i> 899
+                            <i class="icon-eye-open"></i> 899 
+                            <i class="icon-camera-retro"></i> 
+                        </span> 
+                    </div>
+                </div>
+                <div class="col-md-2 border">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitatio
+                    <div class="clearfix"></div>
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -351,7 +351,7 @@
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -364,7 +364,7 @@
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -377,7 +377,7 @@
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -390,7 +390,7 @@
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -403,7 +403,7 @@
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -416,7 +416,7 @@
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -429,7 +429,7 @@
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -442,7 +442,7 @@
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -455,7 +455,7 @@
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation 
                     <div class="clearfix"></div>
-                    <div class="row" style="display:block">
+                    <div class="row span" style="display:block">
                         <span class="btn-bottom-content"> 
                             <i class="fa fa-comment"></i> 899
                             <i class="icon-eye-open"></i> 899 
@@ -472,10 +472,48 @@
             </footer>
         </section>
 
+        <!-- Modal Form Login & Reg -->
+        <!-- Fullscreen Modal -->
+        <div class="modal modal-fullscreen fade" id="modal-ungkapin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <h4 class="modal-title" id="myModalLabel"></h4> -->
+              </div>
+              <div class="modal-body">
+                    <div class="row" style="background-color:none;">
+                        <div class="col-md-12" style="text-align:center;padding-bottom: 24px;">
+                        </div><br/>
+                        <div class="col-md-5" style="text-align:center;background-color:none;">
+                            <div class="" style="text-align:center">
+                                <button type="button" data-toggle="modal" data-target="#ungkapinImage" class="btn btn-warning btn-circle btn-xl">Gambar</button>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <hr/>
+                        </div>
+                        <div class="col-md-5" style="text-align:center;background-color:none;">
+                            <div class="form-group" style="text-align:center">  
+                                <button type="button" data-toggle="modal" data-target="#ungkapinTulisan"  class="btn btn-warning btn-circle btn-xl">Tulisan</button>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
     </body>
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="{!! url('js/jquery.min.js') !!}" type="text/javascript"></script>
+    <script src="{!! url('js/bootstrap.min.js') !!}" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script type="text/javascript">
 
     </script>

@@ -99,10 +99,10 @@ ul>li>a{
 	  overflow:hidden;
 	}
 }
-.row :nth-child(even){
+.row.color :nth-child(even){
   background-color: rgba(103, 174, 195, 0.62);
 }
-.row :nth-child(odd){
+.row.color :nth-child(odd){
   background-color: rgba(176, 225, 187, 0.5);
 }
 
@@ -239,13 +239,14 @@ ul>li>a{
   color: rgb(153, 0, 0);
 }
 
-.border .row>span{
+.border .row.span>span{
   background: rgb(252, 252, 252);
 }
 
-.border .row>span>i{
+.border .row.span>span>i{
   background: rgb(252, 252, 252);
 }
+
 
 /*
 ** Overflow Hidden
@@ -304,4 +305,82 @@ ul>li>a{
 
 .thumbnail {
     position: relative;
+}
+
+
+/* Modal Style */
+
+.modal-transparancy{
+  background-color:rgba(0, 0, 0, 0.45);
+}
+
+/* .modal-fullscreen */
+
+.modal-fullscreen {
+  background: transparent;
+}
+.modal-fullscreen .modal-content {
+  background: transparent;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.modal-backdrop.modal-backdrop-fullscreen {
+  background: #ffffff;
+}
+.modal-backdrop.modal-backdrop-fullscreen.in {
+  opacity: .97;
+  filter: alpha(opacity=97);
+}
+
+/* .modal-fullscreen size: we use Bootstrap media query breakpoints */
+
+.modal-fullscreen .modal-dialog {
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .modal-fullscreen .modal-dialog {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .modal-fullscreen .modal-dialog {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .modal-fullscreen .modal-dialog {
+     width: 1170px;
+  }
+}
+
+
+/* Circle Button */
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+width: 136px;
+    height: 137px;
+    padding: 13px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 67px;
 }
