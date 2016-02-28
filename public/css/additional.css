@@ -391,3 +391,20 @@ width: 136px;
 .modal-dialog-center {
     margin-top: 25%;
 }
+
+
+/* Close */
+
+.closeButton{
+    color: rgb(255, 255, 255);
+    width: 37px;
+    height: 37px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 20px;
+    float: right;
+    background-color: #EEA741;
+    border-color: #EEA63E;
+}

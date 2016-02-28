@@ -477,8 +477,8 @@
         <!-- Fullscreen Modal -->
         <div class="modal modal-fullscreen fade" id="modal-ungkapin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <!-- Close Button -->
-            <button type="button" class="close" data-dismiss="modal" style="margin-right:10%;margin-top:21px;">
-                <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+            <button type="button" class="closeButton"  data-dismiss="modal" style="margin-right:10%;margin-top:21px;">
+                <span aria-hidden="true">&times;</span>
             </button>
           <div class="modal-dialog modal-dialog-center">
             <div class="modal-content">
