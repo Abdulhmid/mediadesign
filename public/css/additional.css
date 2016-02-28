@@ -384,3 +384,10 @@ width: 136px;
     line-height: 1.33;
     border-radius: 67px;
 }
+
+
+/* Centered Modal Body */
+
+.modal-dialog-center {
+    margin-top: 25%;
+}

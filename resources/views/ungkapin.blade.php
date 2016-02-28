@@ -4,8 +4,9 @@
         <title>Laravel</title>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" type="text/css" href="{!! url('css/bootstrap.min.css') !!}">
-        <link rel="stylesheet" type="text/css" href="{!! url('css/font-awesome.css') !!}">
-        <link rel="stylesheet" type="text/css" href="{!! url('css/font-awesome.min.css') !!}">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
         <link rel="stylesheet" type="text/css" href="{!! url('css/bootstrap-theme.min.css') !!}">
         <link rel="stylesheet" type="text/css" href="{!! url('css/startbootstrap.css') !!}">
 
@@ -475,35 +476,32 @@
         <!-- Modal Form Login & Reg -->
         <!-- Fullscreen Modal -->
         <div class="modal modal-fullscreen fade" id="modal-ungkapin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
+            <!-- Close Button -->
+            <button type="button" class="close" data-dismiss="modal" style="margin-right:10%;margin-top:21px;">
+                <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+            </button>
+          <div class="modal-dialog modal-dialog-center">
             <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-                </button>
-                <!-- <h4 class="modal-title" id="myModalLabel"></h4> -->
-              </div>
-              <div class="modal-body">
+              <div class="modal-body" style="">
                     <div class="row" style="background-color:none;">
-                        <div class="col-md-12" style="text-align:center;padding-bottom: 24px;">
+                        <div class="col-md-12 text-center" style="text-align:center;padding-bottom: 24px;">
                         </div><br/>
-                        <div class="col-md-5" style="text-align:center;background-color:none;">
+                        <div class="col-md-5 text-center" style="text-align:center;background-color:none;">
                             <div class="" style="text-align:center">
                                 <button type="button" data-toggle="modal" data-target="#ungkapinImage" class="btn btn-warning btn-circle btn-xl">Gambar</button>
                             </div>
                         </div>
-                        <div class="col-md-2">
-                            <hr/>
+                        <div class="col-md-2 text-center">
+                            
                         </div>
-                        <div class="col-md-5" style="text-align:center;background-color:none;">
+                        <div class="col-md-5 text-center" style="text-align:center;background-color:none;">
                             <div class="form-group" style="text-align:center">  
                                 <button type="button" data-toggle="modal" data-target="#ungkapinTulisan"  class="btn btn-warning btn-circle btn-xl">Tulisan</button>
                             </div>
                         </div>
                     </div>
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <div class="modal-footer" style="border-top:rgba(0, 0, 0, 0.45)">
               </div>
             </div>
           </div>
@@ -515,7 +513,18 @@
     <script src="{!! url('js/jquery.min.js') !!}" type="text/javascript"></script>
     <script src="{!! url('js/bootstrap.min.js') !!}" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script type="text/javascript">
+        function centerModal() {
+            $(this).css('display', 'block');
+            var $dialog = $(this).find(".modal-dialog");
+            var offset = ($(window).height() - $dialog.height()) / 2;
+            // Center modal vertically in window
+            $dialog.css("margin-top", offset);
+        }
 
+        $('#modal-ungkapin').on('show.bs.modal', centerModal);
+        $(window).on("resize", function () {
+            $('#modal-ungkapin:visible').each(centerModal);
+        });
     </script>
 
 </html>
