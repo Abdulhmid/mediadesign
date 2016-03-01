@@ -93,14 +93,14 @@
 
                 <div class="col-md-2 border">
                     <div class="pdf-thumb-box" style="background: none;"> 
-                        <a href="#2013-Katalog" style="color: rgba(0, 0, 0, 0.91);text-decoration:none;background: none;">
+                        <a data-toggle="modal" data-target="#ungkapinDetail" style="color: rgba(0, 0, 0, 0.91);text-decoration:none;background: none;">
                             <div class="pdf-thumb-box-overlay" style="left: -16px;">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-square-o fa-stack-2x pdf-thumb-square"></i>
                                     <i class="fa fa-eye fa-stack-1x pdf-thumb-eye"></i>
                                 </span>
                             </div>
-                            ASSASAMengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
+                            sASSASAMengapa Aku Begini, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                             quis nostrud exercitation 
 
@@ -607,6 +607,92 @@
               </div>
             </div>
             </div>
+        </div>
+
+        <!-- Ungkap Detail -->
+        <div class="modal fade" id="ungkapinDetail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <!-- Content -->
+            <button type="button" class="closeButton"  data-dismiss="modal" style="margin-right:10%;margin-top:21px;">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-dialog modal-dialog-center">
+            <div class="modal-content" style="margin-left: -129px;margin-right: -129px;">
+              <div class="modal-body" style="">
+                    <div class="row" style="background-color:none;">
+                        <div class="col-md-8" style="">
+                            <img src="http://i.imgur.com/Cn1ev16.jpg" style="width: 448px;max-width: 448px;">
+                        </div><br/>
+                        <div class="col-md-4">
+                            <div class="detailBox">
+                                <div class="titleBox">
+                                  <label>Comment Box</label>
+                                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                                </div>
+                                <div class="commentBox">
+                                    <p class="taskDescription">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <span><i class="fa fa-comment"> 8989</i></span>
+                                    <span><i class="fa fa-eye"> 8989</i></span>
+                                    <span><i class="fa fa-calendar"> 11 Nov 2015</i></span>
+
+                                    <span style="margin-left:12px"><i class="fa fa-facebook-square">Share</i></span>
+                                    <span><i class="fa fa-twitter-square">Tweet</i></span>
+                                </div>
+                                <div class="actionBox">
+                                    <ul class="commentList">
+                                        <li>
+                                            <div class="commenterImage">
+                                              <img src="http://lorempixel.com/50/50/people/6" />
+                                            </div>
+                                            <div class="commentText">
+                                                <p class="">Hello this is a test comment.</p> <span class="date sub-text">on March 5th, 2014</span>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="commenterImage">
+                                              <img src="http://lorempixel.com/50/50/people/7" />
+                                            </div>
+                                            <div class="commentText">
+                                                <p class="">Hello this is a test comment and this comment is particularly very long and it goes on and on and on.</p> <span class="date sub-text">on March 5th, 2014</span>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="commenterImage">
+                                              <img src="http://lorempixel.com/50/50/people/9" />
+                                            </div>
+                                            <div class="commentText">
+                                                <p class="">Hello this is a test comment.</p> <span class="date sub-text">on March 5th, 2014</span>
+                                                <img src="{!! url('theme/ungkap') !!}/img/member2.jpg" >
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <form class="form-inline" role="form">
+                                        <div class="form-group">
+                                            <input class="form-control" type="text" placeholder="Your comments" />
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn btn-default">Add</button>
+                                        </div>
+                                    </form>
+                                    <div class="row"><br/>
+                                        <div style="border-top:1px solid black;"><br/>
+                                            <div class="col-md-6" style="text-align:center;"><button class="btn btn-default">Naik</button></div>
+                                            <div class="col-md-6" style="text-align:center;"><button class="btn btn-default">Hapus</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+            <div class="modal-footer">
+                <button type="button" data-toggle="modal" data-target="#ungkapinSucces" class="btn btn-warning btn-ungkap-success" data-dismiss="modal">Ayo Ungkapin !</button>
+            </div>
+              <div class="modal-footer" style="border-top:rgba(0, 0, 0, 0.45)">
+              </div>
+            </div>
+            </div>
 
         </div>
 
@@ -642,6 +728,11 @@
         $('#ungkapinImage').on('show.bs.modal', centerModal);
         $(window).on("resize", function () {
             $('#ungkapinImage:visible').each(centerModal);
+        });
+
+        $('#ungkapinDetail').on('show.bs.modal', centerModal);
+        $(window).on("resize", function () {
+            $('#ungkapinDetail:visible').each(centerModal);
         });
     </script>
 
