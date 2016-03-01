@@ -17,8 +17,16 @@
         <!-- Image Hover -->
 
         <style>
-
-
+        .vertical-line{
+            height: 184px;
+            width: 3px;
+            background-color: #FDFDFD;
+            margin-left: 0px;
+            margin-top: 0px;
+            postion: absolute;border-radius: 2px;
+            margin-left: 50%;
+            margin-right: 50%;
+        }
         </style>
     </head>
     <body>
@@ -486,17 +494,25 @@
                     <div class="row" style="background-color:none;">
                         <div class="col-md-12 text-center" style="text-align:center;padding-bottom: 24px;">
                         </div><br/>
-                        <div class="col-md-5 text-center" style="text-align:center;background-color:none;">
+                        <div class="col-md-5 text-center " style="text-align:center;background-color:none;">
                             <div class="" style="text-align:center">
-                                <button type="button" data-toggle="modal" data-target="#ungkapinImage" class="btn btn-warning btn-circle btn-xl">Gambar</button>
+                                <button type="button" data-toggle="modal" 
+                                        data-target="#ungkapinImage" 
+                                        style="margin-right: -18%;" 
+                                        class="pull-right btn btn-warning btn-circle btn-xl">Gambar</button>
                             </div>
                         </div>
                         <div class="col-md-2 text-center">
-                            
+                            <!-- <span>/</span> -->
+                            <div class="vertical-line"></div>
                         </div>
                         <div class="col-md-5 text-center" style="text-align:center;background-color:none;">
                             <div class="form-group" style="text-align:center">  
-                                <button type="button" data-toggle="modal" data-target="#ungkapinTulisan"  class="btn btn-warning btn-circle btn-xl">Tulisan</button>
+                                <button type="button" 
+                                        data-toggle="modal" 
+                                        style="margin-left : -83px;" 
+                                        data-target="#ungkapinTulisan"  
+                                        class="pull-left btn btn-warning btn-circle btn-xl">Tulisan</button>
                             </div>
                         </div>
                     </div>
@@ -506,6 +522,94 @@
             </div>
           </div>
         </div>
+
+        <!-- Ungkap Tulisan -->
+        <div class="modal fade" id="ungkapinTulisan" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <!-- Content -->
+            <button type="button" class="closeButton"  data-dismiss="modal" style="margin-right:10%;margin-top:21px;">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-dialog modal-dialog-center">
+            <div class="modal-content" style="margin-left: -129px;margin-right: -129px;">
+              <div class="modal-body" style="">
+                    <div class="row" style="background-color:none;">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Tulisan</label>
+                                <p>Masukkan tulisanmu dengan maksimal. <br/> 160 karakter.</p>
+                                <textarea class="form-control" name="hastag" cols="33" rows="3"  placeholder="#positif#negatif#cinta#agama#sehat#lifestyle"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Hastag</label>
+                                <p>Berikan hastag yang sesuai. <br/> Maksimal 10 hastag</p>
+                                <textarea class="form-control" name="hastag" cols="33" rows="3"  placeholder="#positif#negatif#cinta#agama#sehat#lifestyle"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Link</label>
+                                <p>Masukkan link sebagai bukti penguat. <br/> Kamu boleh tidak memberikan link.</p>
+                                <textarea class="form-control" name="link" cols="33" rows="3" placeholder="Ketik atau paste link disini"></textarea>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+            <div class="modal-footer">
+                <button type="button" data-toggle="modal" data-target="#ungkapinSucces" class="btn btn-warning btn-ungkap-success" data-dismiss="modal">Ayo Ungkapin !</button>
+            </div>
+              <div class="modal-footer" style="border-top:rgba(0, 0, 0, 0.45)">
+              </div>
+            </div>
+            </div>
+
+        </div>
+
+        <!-- Ungkap Gambar -->
+        <div class="modal fade" id="ungkapinImage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <!-- Content -->
+            <button type="button" class="closeButton"  data-dismiss="modal" style="margin-right:10%;margin-top:21px;">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-dialog modal-dialog-center">
+            <div class="modal-content" style="margin-left: -129px;margin-right: -129px;">
+              <div class="modal-body" style="">
+                    <div class="row" style="background-color:none;">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Gambar</label>
+                                <p>Pilih Gambar Yang Kamu Ungkapin</p><br/>
+                                <input type="file" class="form-control" value="" style="display:none">
+                                <button class="form-control btn btn-default btn-ungkap-upload" type="button" onclick="chooseFile()"><i class="fa fa-upload"></i> Pilih Gambar</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Hastag</label>
+                                <p>Berikan hastag yang sesuai. <br/> Maksimal 10 hastag</p>
+                                <textarea class="form-control" name="hastag" cols="33" rows="3"  placeholder="#positif#negatif#cinta#agama#sehat#lifestyle"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Link</label>
+                                <p>Masukkan link sebagai bukti penguat. <br/> Kamu boleh tidak memberikan link.</p>
+                                <textarea class="form-control" name="link" cols="33" rows="3" placeholder="Ketik atau paste link disini"></textarea>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+            <div class="modal-footer">
+                <button type="button" data-toggle="modal" data-target="#ungkapinSucces" class="btn btn-warning btn-ungkap-success" data-dismiss="modal">Ayo Ungkapin !</button>
+            </div>
+              <div class="modal-footer" style="border-top:rgba(0, 0, 0, 0.45)">
+              </div>
+            </div>
+            </div>
+
+        </div>
+
 
 
     </body>
@@ -521,9 +625,23 @@
             $dialog.css("margin-top", offset);
         }
 
+        $(document).ready(function(){
+            $('#ungkapinTulisan,#ungkapinImage').on('shown.bs.modal', function () {
+               $('#modal-ungkapin').modal('hide');
+            });
+        });
+
         $('#modal-ungkapin').on('show.bs.modal', centerModal);
         $(window).on("resize", function () {
             $('#modal-ungkapin:visible').each(centerModal);
+        });
+        $('#ungkapinTulisan').on('show.bs.modal', centerModal);
+        $(window).on("resize", function () {
+            $('#ungkapinTulisan:visible').each(centerModal);
+        });
+        $('#ungkapinImage').on('show.bs.modal', centerModal);
+        $(window).on("resize", function () {
+            $('#ungkapinImage:visible').each(centerModal);
         });
     </script>
 

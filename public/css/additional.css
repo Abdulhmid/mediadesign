@@ -377,12 +377,12 @@ ul>li>a{
   border-radius: 25px;
 }
 .btn-circle.btn-xl {
-width: 136px;
-    height: 137px;
+    width: 180px;
+    height: 176px;
     padding: 13px 16px;
     font-size: 24px;
     line-height: 1.33;
-    border-radius: 67px;
+    border-radius: 85px;
 }
 
 
@@ -408,3 +408,6 @@ width: 136px;
     background-color: #EEA741;
     border-color: #EEA63E;
 }
+
+
+/* Modal Style */
